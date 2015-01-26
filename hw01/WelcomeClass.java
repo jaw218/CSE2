@@ -3,6 +3,7 @@
 //
 // Hw 2 Welcome Class
 //
+// 1/24/15
 // define a class
 public class WelcomeClass
 {
