@@ -47,10 +47,10 @@ public class Arithmetic
         int l = (int) ee;
         int y = (int) tTotal;
 
-        System.out.println(ss + " " + j);
-        System.out.println(gg + " " + k);
-        System.out.println(ee + " " + l);
-        System.out.println(tTotal + " " + y);
+        //System.out.println(ss + " " + j);
+        //System.out.println(gg + " " + k);
+        //System.out.println(ee + " " + l);
+        //System.out.println(tTotal + " " + y);
         
         double q = j;
         double w = k;
