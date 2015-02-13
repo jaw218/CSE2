@@ -1,6 +1,6 @@
-//Mitchell Grohoski
+//James Waring
 //CSE2
-//September 15th 2014
+//2/10/15
 //hw03
 
 //importing scanner
