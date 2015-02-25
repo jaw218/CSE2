@@ -1,3 +1,7 @@
+//James Waring
+// 2/24/15
+// HW05
+
 import java.util.Scanner; 
     
 public class ToHex 
