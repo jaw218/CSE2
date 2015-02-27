@@ -17,42 +17,48 @@ public class RunFactorial
         int inputMemory = 0;
         int answer = 0;
         boolean done = false;
+        String garbage;
         
-        System.out.println("Please enter an int between 9 and 16 inclusively.");
+        //runs until valid input is obtained
         while(done == false)
         {
-            
+            System.out.println("Please enter an int between 9 and 16 inclusively.");
             if(myScanner.hasNextDouble())
             {
+                //assigns input to variable
                 input = myScanner.nextDouble();
-            
+                
+                //checks validity of input
                 if((8 < input) && (input < 17) && (input%1 == 0))
                 {
+                    //casts input to int
                     inputx = (int) input;
                     inputMemory = inputx;
-                    done = true;
+                    done = true; //switches because valid input
                 }
                 else
                 {
+                    //if not in range or int
                     System.out.println("Invalid input.");
-                    System.out.println("Please enter an int between 9 and 16 inclusively.");
-                    break;
+                    
                 }
             }
             else
             {
+                //if not double
                 System.out.println("Invalid input.");
-                System.out.println("Please enter an int between 9 and 16 inclusively.");
-                break;
+                garbage = myScanner.next(); //gets rid of bad input
+                
             }
+            
         }   
         answer = inputx;
-        //answer = 5;
-        //System.out.println(answer);
         
+        //does the math
         while(input > 0)
         {
             answer *= inputx--;
+            input--;
         }
         
         System.out.println(inputMemory + "! = " + answer);

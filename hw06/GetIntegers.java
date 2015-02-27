@@ -14,6 +14,7 @@ public class GetIntegers
         int sum = 0;
         double x = 0;
         int y = 0;
+        String garbage;
         
         System.out.println("Please enter 5 non-negative integers.");
         
@@ -40,6 +41,7 @@ public class GetIntegers
             else
             {
                 System.out.println("Not valid.");
+                garbage = myScanner.next();
                 count--; //decreases count if invalid to make sure 5 valid ints are entered
             }
         }
