@@ -48,14 +48,14 @@ public class zigzag
             }
             System.out.println();
             x = 0;
-            while(x < nStars)
+            while(x < nStars-2)
             {
                 while(y < x)
                 {
                     System.out.print(" ");
                     y++;
                 }
-                System.out.println("*");
+                System.out.println(" *");
                 y = 0;
                 x++;
             }
