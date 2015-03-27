@@ -6,6 +6,7 @@ public class Methods
 {
     public static void main(String[] args)
     {
+        //creates random numbers
         int a = (int)(Math.random() * 10);
         int b = (int)(Math.random() * 10);
         int c = (int)(Math.random() * 10);
@@ -13,10 +14,11 @@ public class Methods
         int e = (int)(Math.random() * 10);
         int f = (int)(Math.random() * 10);
         
+        //prints sentence
         System.out.println("The "+wordOne(a)+" "+wordOne(b)+" "+wordTwo(c)+" "+wordThree(d)+" the "+wordOne(e)+" "+wordFour(f)+"."); 
     }
     
-    //adjective
+    //returns random adjective
     public static String wordOne(int x)
     {
         String result = "";
@@ -58,7 +60,7 @@ public class Methods
         return result;
     }
     
-    //subject
+    //returns random subject
     public static String wordTwo(int x)
     {
         String result = "";
@@ -99,7 +101,7 @@ public class Methods
         return result;
     }
     
-    //verb
+    //returns random verb
     public static String wordThree(int x)
     {
         String result = "";
@@ -141,7 +143,7 @@ public class Methods
         return result;
     }
     
-    //object
+    //returns random object
     public static String wordFour(int x)
     {
         String result = "";
