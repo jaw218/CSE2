@@ -109,11 +109,11 @@ public class Search
                 }
                 if(key < search)
                 {
-                    low = middle;
+                    low = middle+1;
                 }
                 else
                 {
-                    high = middle;
+                    high = middle-1;
                 }
                 middle = (int)(((high + low)/2));
             }
